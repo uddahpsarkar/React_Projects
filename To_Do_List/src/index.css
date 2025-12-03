@@ -1,86 +1,83 @@
- body {
-     background-color: hsl(0, 0%, 4%);
- }
- 
- .todo-container {
-     font-family: Arial, sans-serif;
-     text-align: center;
-     margin-top: 100px;
- }
- 
- h1 {
-     font-size: 4rem;
-     color: rgb(248, 146, 13);
- }
- 
- button {
-     font-size: 1.7rem;
-     font-weight: bold;
-     padding: 10px 20px;
-     color: white;
-     border: none;
-     border-radius: 5px;
-     cursor: pointer;
-     transition: background-color 0.5s ease;
- }
- 
- .add-button {
-     background-color: aqua;
-     margin: 10px;
- }
- 
- .add-button:hover {
-     background-color: rgb(97, 142, 157);
- }
- 
- .delete-button {
-     background-color: rgb(255, 47, 0);
- }
- 
- .delete-button:hover {
-     background-color: rgb(109, 37, 7);
- }
- 
- .move-button {
-     background-color: rgb(45, 7, 232);
- }
- 
- .move-button:hover {
-     background-color: rgb(87, 74, 153);
- }
- 
- input[type="text"] {
-     font-size: 1.6rem;
-     padding: 10px;
-     border: 2px solid #ccc;
-     border-radius: 5px;
-     color: rgb(0, 255, 30);
- }
- 
- ol {
-     padding: 5%;
-     margin: 10px;
- }
- 
- li {
-     font-size: 2rem;
-     font-weight: bold;
-     padding: 15px;
-     background-color: hsl(0, 40%, 98%);
-     margin-bottom: 10px;
-     border: 3px solid rgb(81, 145, 169);
-     border-radius: 5px;
-     display: flex;
-     align-items: center;
- }
- 
- .text {
-     flex: 1;
- }
- 
- .delete-button,
- .move-button {
-     padding: 8px 12px;
-     font-size: 1.4rem;
-     margin-left: 10px;
- }
+.todo-container {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(248, 146, 13);
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.add-button {
+    background-color: aqua;
+    margin: 10px;
+}
+
+.add-button:hover {
+    background-color: rgb(97, 142, 157);
+}
+
+.delete-button {
+    background-color: rgb(255, 47, 0);
+}
+
+.delete-button:hover {
+    background-color: rgb(109, 37, 7);
+}
+
+.move-button {
+    background-color: rgb(45, 7, 232);
+}
+
+.move-button:hover {
+    background-color: rgb(87, 74, 153);
+}
+
+input[type="text"] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: rgb(0, 255, 30);
+}
+
+ol {
+    padding: 5%;
+    margin: 10px;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 40%, 98%);
+    margin-bottom: 10px;
+    border: 3px solid rgb(81, 145, 169);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.delete-button,
+.move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
